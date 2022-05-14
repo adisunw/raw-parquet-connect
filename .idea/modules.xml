@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/raw-parquet-connect/kafka-connect-storage-cloud.iml" filepath="$PROJECT_DIR$/raw-parquet-connect/kafka-connect-storage-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/raw-parquet-connect.iml" filepath="$PROJECT_DIR$/.idea/raw-parquet-connect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/raw-parquet-connect/raw-parquet-formatter/raw-parquet-formatter.iml" filepath="$PROJECT_DIR$/raw-parquet-connect/raw-parquet-formatter/raw-parquet-formatter.iml" />
+    </modules>
+  </component>
+</project>
