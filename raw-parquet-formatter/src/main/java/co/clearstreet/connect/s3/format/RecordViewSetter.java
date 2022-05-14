@@ -16,7 +16,7 @@
 
 package co.clearstreet.connect.s3.format;
 
-import io.confluent.connect.s3.format.RecordViews.ValueRecordView;
+import co.clearstreet.connect.s3.format.RecordViews.ValueRecordView;
 
 import static java.util.Objects.requireNonNull;
 

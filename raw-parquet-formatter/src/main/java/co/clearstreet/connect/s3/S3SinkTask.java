@@ -36,8 +36,6 @@ import java.util.Map;
 
 import io.confluent.common.utils.SystemTime;
 import io.confluent.common.utils.Time;
-import
-import co.clearstreet.connect.s3.format.KeyValueHeaderRecordWriterProvider;
 import co.clearstreet.connect.s3.format.KeyValueHeaderRecordWriterProvider;
 import co.clearstreet.connect.s3.format.RecordViewSetter;
 import co.clearstreet.connect.s3.format.RecordViews.HeaderRecordView;

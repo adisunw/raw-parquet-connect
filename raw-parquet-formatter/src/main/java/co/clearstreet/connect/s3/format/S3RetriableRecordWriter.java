@@ -15,13 +15,13 @@
 
 package co.clearstreet.connect.s3.format;
 
-import io.confluent.connect.s3.storage.IORecordWriter;
+import co.clearstreet.connect.s3.storage.IORecordWriter;
 import io.confluent.connect.storage.format.RecordWriter;
 import org.apache.kafka.connect.sink.SinkRecord;
 
 import java.io.IOException;
 
-import static io.confluent.connect.s3.util.S3ErrorUtils.throwConnectException;
+import static co.clearstreet.connect.s3.util.S3ErrorUtils.throwConnectException;
 
 /**
  * Wrapper class which may convert an IOException to either a ConnectException

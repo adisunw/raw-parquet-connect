@@ -16,7 +16,7 @@
         
     <fileSets>
         <fileSet>
-            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-connect</directory>
+            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-formatter</directory>
             <outputDirectory>doc/</outputDirectory>
             <includes>
                 <include>version.txt*</include>
@@ -26,7 +26,7 @@
             </includes>
         </fileSet>
         <fileSet>
-            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-connect/raw-parquet-formatter</directory>
+            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-formatter</directory>
             <outputDirectory>doc/</outputDirectory>
             <includes>
                 <include>licenses.html*</include>
@@ -35,21 +35,21 @@
             </includes>
         </fileSet>
         <fileSet>
-            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-connect/raw-parquet-formatter/config</directory>
+            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-formatter/config</directory>
             <outputDirectory>etc/</outputDirectory>
             <includes>
                 <include>*</include>
             </includes>
         </fileSet>
         <fileSet>
-            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-connect/raw-parquet-formatter/target</directory>
+            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-formatter/target</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
                 <include>manifest.json</include>
             </includes>
         </fileSet>
         <fileSet>
-            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-connect/raw-parquet-formatter/target/components/assets/</directory>
+            <directory>/Users/awheelock/raw-parquet-connect/raw-parquet-formatter/target/components/assets/</directory>
             <outputDirectory>assets/</outputDirectory>
             <includes>
                 <include>*</include>

@@ -17,6 +17,7 @@
 
 package co.clearstreet.connect.s3.format.parquet;
 
+import co.clearstreet.connect.s3.S3SinkConnectorConfig;
 import co.clearstreet.connect.s3.storage.S3Storage;
 import io.confluent.connect.storage.format.Format;
 import io.confluent.connect.storage.format.RecordWriterProvider;
