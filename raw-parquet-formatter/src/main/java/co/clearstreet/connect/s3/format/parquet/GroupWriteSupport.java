@@ -60,7 +60,7 @@ public class GroupWriteSupport extends WriteSupport<MyGroup> {
     }
 
     @Override
-    public void prepareForWrite(RecordConsumer recordConsumer) {
+    public void prepareForWrite(RecordConsumer recordConsumer) {;
         groupWriter = new MyGroupWriter(recordConsumer, schema);
     }
 

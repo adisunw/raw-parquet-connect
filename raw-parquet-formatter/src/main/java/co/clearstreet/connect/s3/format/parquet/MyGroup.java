@@ -161,9 +161,9 @@ public class MyGroup extends Group {
     @Override
     public void writeValue(int field, int index, RecordConsumer recordConsumer) {
         log.info("IN WRITE VALUE");
-
-        Binary val = getBinary(field, index);
-        recordConsumer.addBinary(val);
+       // Binary val = getBinary(field, index);
+        Object val = getValue(field, index);
+        recordConsumer.addBinary((Binary) val);
         log.info("from the write value {}", val);
     //    val.writeValue(recordConsumer);
     }
